@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
     	            sh 'cd /home/george/Desktop/Demo'
-    	            'python3 t3.py'      
+    	            python3 't3.py'      
             }
         }
     }
