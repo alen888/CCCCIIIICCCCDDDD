@@ -6,7 +6,7 @@ pipeline {
             steps {
     	            sh 'cd /home/george/Desktop/Demo'
                 script {
-            sh(script: 'python3 't3.py', returnStdout: true)
+            sh(script: 'python3 t3.py', returnStdout: true)
 
         }
     	                  
