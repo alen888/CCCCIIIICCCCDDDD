@@ -4,18 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+    	            sh 'cd /home/george/Desktop/Demo'
+    	            sh 'python3 t3.py'      
             }
         }
     }
 }
+
